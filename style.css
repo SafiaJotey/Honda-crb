@@ -1,0 +1,429 @@
+/* Font: */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/* Common Css */
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.btn{
+    background: #E76F51;
+    border: 1px solid rgb(45, 219, 250);
+    color:white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+
+}
+.highlight{
+    color:#E76F51;
+}
+
+/* header section */
+
+header{
+    background: #264653;
+    
+    
+}
+
+/* navbar section */
+
+.nav-section .nav-item a{
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* margin-right:36px; */
+   
+
+
+}
+
+/* .nav-section .btn{
+    margin-left:64px;
+
+} */
+
+
+
+/* Hero-section Css */
+.hero-section{
+    padding: 69px 0 96px;
+    
+
+}
+
+.hero-section .hero-details{
+    width:80%;
+}
+
+.hero-section h1{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #FFFFFF;
+
+}
+.hero-section p{
+    color: #E0E0E0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+
+.hero-section img{
+    width: 100%;
+}
+
+
+/*feature-section*/
+
+
+.feature-section{
+    margin-top: 22px;
+}
+.feature-section .feature-details h3{
+  
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+
+}
+.feature-section .feature-details p{
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    color: #E76F51;
+    position: relative;
+
+}
+.feature-section .feature-details p::before{
+    
+    content: '';
+    position:absolute;
+    left: 47%;
+    bottom: -5px;
+    width:7%;
+    height: 2px;
+    background-color:#E76F51;
+   
+
+}
+.feature-section .image img{
+    width: 70%;
+    
+}
+
+
+
+/*Latest-section*/
+
+
+.latest-section{
+    margin-top: 100px;
+}
+
+.latest-section h3{
+    margin-bottom: 47px;
+}
+
+.card{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 3px rgb(177, 176, 176);
+}
+.latest-section .card .image img{
+    width: 90%;
+}
+
+.latest-section .card-body h5{
+ 
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    color: #18191F;
+
+
+}
+.latest-section .card-body p{
+ 
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+   
+    color: #6C6C6C;
+
+
+}
+.latest-section .card .latest-btn{
+    color: #E76F51 ;
+    border: 1px solid #E76F51;
+    padding: 8px 18px;
+    border-radius: 5px;
+    transition: all linear .2s;
+
+}
+
+.latest-section .card .latest-btn:hover{
+    background-color: #E76F51;
+    color: white;
+
+}
+
+/* clients section */
+
+
+.client-section{
+    padding-top: 160px;
+}
+
+.client-section h3{
+    margin-bottom:30px ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.client-section .image img{
+    width:149px;
+    height: 149px;
+    
+}
+
+.client-section .image .image3{
+    width:149px;
+    height: 149px;
+    border-radius: 50%;
+}
+.client-section .details{
+    width: 90%;
+}
+
+.client-section .details p{
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin: 20px 0;
+    text-align: center;
+    
+}
+.client-section .details a{
+    margin-right: 5px;
+    
+}
+.client-section .details a>.fas{
+    color:#E76F51;
+
+}
+.client-section .details a>.far{
+    color:#E76F51;
+
+}
+
+
+.client-section .details h6{
+    color: #23A6F0;
+
+}
+
+
+/* FAQ Section css */
+
+.faq-section{
+    padding-top: 170px;
+}
+.faq-section h3{
+    margin-bottom:112px ;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.faq-section img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.faq-section .faq{
+    width: 95%;
+    margin-bottom: 5px;
+    
+    box-shadow: 2px 2px 3px rgb(204, 203, 203);
+    padding:5px;
+    border-radius: 10px;
+}
+
+
+
+.faq-section .faq a>.fas{
+    color: rgb(87, 85, 85);
+    font-size: 16px;
+    transform: rotate(0);
+    transition: all linear .3s;
+    margin-left:30px;
+    
+}
+.faq-section .faq a>.fas:hover{
+    color: rgb(61, 155, 243);
+    transform: rotate(90deg);
+}
+
+
+/* upcoming-section */
+.upcoming-section{
+    margin-top:100px ;
+}
+.upcoming-section h3{
+    margin-bottom:82px ;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    position: relative;
+    
+}
+.upcoming-section img{
+    width: 100%;
+}
+
+.upcoming-section h3:before{
+   
+    content: '';
+    position:absolute;
+    left: 42%;
+    bottom: -5px;
+    width:15%;
+    height: 2px;
+    background-color:#E76F51;
+    
+}
+
+
+/* stay-connected */
+
+.stay-connected{
+    margin-top: 82px;
+    
+    
+}
+
+.stay-connected h3{
+    margin-bottom:52px ;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    
+
+}
+
+.stay-connected .icons a{
+    display: inline-block;
+    font-size: 30px;
+    padding:10px 25px;
+    margin: 0 10px;
+    margin: 10px 0;
+}
+
+.stay-connected .facebook-icon {
+    color: rgb(17, 135, 246);
+}
+.stay-connected .facebook-icon:hover{
+    background-color: rgb(17, 135, 246);
+    color: white;
+}
+
+
+
+.stay-connected .insta-icon{
+    color: rgb(255, 11, 174);
+}
+.stay-connected .insta-icon:hover{
+    background-color: rgb(255, 11, 174);
+    color: white;
+}
+
+
+.stay-connected .twitter-icon{
+    color: rgb(55, 2, 246);
+}
+.stay-connected .twitter-icon:hover{
+    background-color:rgb(55, 2, 246);
+    color: white;
+}
+
+.stay-connected .web-icon{
+    color: silver;
+}
+.stay-connected .web-icon:hover{
+    background-color:silver;
+    color: white;
+}
+
+
+/* footer-section */
+
+.footer-section{
+    margin-top:64px ;
+    background: #0B0D17;
+    padding:56px 84px;
+
+}
+.footer-section h6{
+    color: #D9DBE1;
+    margin: 10px 0;
+
+}
+
+.footer-section a{
+    color: #D9DBE1;
+    
+    margin: 20px 5px;
+
+}
+
+.footer-section img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+
